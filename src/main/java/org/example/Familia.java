@@ -48,19 +48,18 @@ public class Familia {
     }
 
     public void tenerHijo(String nombre){
-
-        if(this.papa.getPareja() != null){
-            Animal hijo = new Animal(nombre, 1);
+        Animal hijo = new Animal(nombre, 1);
+        if(this.papa.getPareja() != null) {
             double random = Math.random();
             if(random < 0.5){
                 hijo.setGenero("F");
-            }else{
+            } else{
                 hijo.setGenero("M");
             }
-            this.hijo = hijo;
-
-        }else{
+        } else{
             System.out.println("Aun no puedes tener hijos");
+            hijo.setNombre("N/A");
         }
+        this.hijo = hijo;
     }
 }

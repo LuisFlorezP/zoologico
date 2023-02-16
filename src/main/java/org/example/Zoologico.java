@@ -4,7 +4,6 @@ public class Zoologico {
     public static void main(String[] args) {
 
         Animal animal1 = new Animal("Cebra", "F", 1);
-
         Animal animal2 = new Animal("Caballo", "M", 1);
 
         animal1.encontrarPareja(animal2);

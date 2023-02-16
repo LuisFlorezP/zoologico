@@ -15,17 +15,17 @@ R/= Contiene 4 atributos, son "nombre", "genero", "peso" y "pareja".
 R/= Estos son "nombre" y "genero" ya que son String y no es considerado un primitivo, tampoco "pareja" al ser de tipo clase Animal.
 
 6- ¿Qué pasa si eliminamos la línea 17 de la clase Zoologico?
-R/= Los valores del atributo "pareja" quedan vacíos y al llegar al método tenerHijo en la clase "Familia" será null y presenta error.
+R/= Los valores del atributo "pareja" quedan vacíos y al llegar al método imprimirFamilia() en la clase "Familia" será null y presenta error al intentar imprimir a this.hijo.nombre.
 
 7- ¿Cuántos métodos tiene la clase Familia?
-R/=
+R/= Contiene 3 métodos de los cuales 1 es el constructor con atributos "papa" y "mama" de tipo Animal; los otros 2 son imprimirFamilia() y tenerHijo().
 
 8- ¿Cuántos parámetros tiene el método tenerHijo() de la clase
 Familia?
-R/=
+R/= Únicamente 1, este es "nombre" de tipo String.
 
 9- ¿Cuántos atributos inicializa el constructor de la clase Familia?
-R/=
+R/= Inicializa 2, los cuales son "papa" y "mama".
 
 10- ¿Qué tipo de retorno tiene el método tenerHijo()?
-R/=
+R/= Retorna el valor del atributo hijo que será de tipo "Animal".
