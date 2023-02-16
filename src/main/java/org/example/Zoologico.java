@@ -12,8 +12,8 @@ public class Zoologico {
         animal2.nombre = "Caballo";
         animal2.genero = "M";
 
-        animal1.encontrarPareja(animal2);
-        animal2.encontrarPareja(animal1);
+        //animal1.encontrarPareja(animal2);
+        //animal2.encontrarPareja(animal1);
 
         Familia familia = new Familia(animal2,animal1);
 
