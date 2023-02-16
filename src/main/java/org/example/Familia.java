@@ -9,6 +9,12 @@ public class Familia {
     public Familia() {
     }
 
+    public Familia(Animal papa, Animal mama, Animal hijo) {
+        this.papa = papa;
+        this.mama = mama;
+        this.hijo = hijo;
+    }
+
     public Familia(Animal papa, Animal mama) {
         this.papa = papa;
         this.mama = mama;

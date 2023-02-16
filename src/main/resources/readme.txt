@@ -18,14 +18,14 @@ R/= Estos son "nombre" y "genero" ya que son String y no es considerado un primi
 R/= Los valores del atributo "pareja" quedan vacíos y al llegar al método imprimirFamilia() en la clase "Familia" será null y presenta error al intentar imprimir a this.hijo.nombre.
 
 7- ¿Cuántos métodos tiene la clase Familia?
-R/= Contiene 3 métodos de los cuales 1 es el constructor con atributos "papa" y "mama" de tipo Animal; los otros 2 son imprimirFamilia() y tenerHijo().
+R/= Contiene 11 métodos de los cuales 3 son constructores, uno vacío, otro es lleno con atributos "papa", "mama" y "hijo" de tipo Animal y el último con los atributos "papa" y "mama" de tipo Animal; otros 6 son los setters y getters de los 3 atributos, por último los otros 2 son imprimirFamilia() y tenerHijo().
 
 8- ¿Cuántos parámetros tiene el método tenerHijo() de la clase
 Familia?
 R/= Únicamente 1, este es "nombre" de tipo String.
 
 9- ¿Cuántos atributos inicializa el constructor de la clase Familia?
-R/= Inicializa 2, los cuales son "papa" y "mama".
+R/= Inicializa 2, los cuales son "papa" y "mama", pero en mi caso también cree los 2 que son vacío y lleno.
 
 10- ¿Qué tipo de retorno tiene el método tenerHijo()?
-R/= Retorna el valor del atributo hijo que será de tipo "Animal".
+R/= No tiene retorno, es de tipo void.
